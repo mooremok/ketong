@@ -338,3 +338,28 @@ p {
 	background-color: #000000;
 }
 /* //服务与产品 */
+
+/* 服务保障 */
+
+.guarantee-item {
+	height: 100%;
+	border: #EDAE00 1px solid;
+	margin: 0.3125rem;
+}
+.guarantee-item img {
+	width: 100%;
+}
+@media (min-width: 992px) {
+	.guarantee-item {
+		width: 32%;		
+	}
+}
+@media (max-width: 991.98px) {
+	.guarantee-item {
+		width: 100%;
+	}
+}
+.guarantee-content {
+	padding: 0.625rem;
+}
+/* //服务保障 */
