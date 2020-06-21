@@ -268,7 +268,7 @@ p {
 /* footer */
 .footer {
 	background-color: #313131;
-	height: 250px;
+	height: auto;
 }
 /* //footer */
 .about-us h4 {
@@ -342,7 +342,7 @@ p {
 /* 服务保障 */
 
 .guarantee-item {
-	height: 100%;
+	height: auto;
 	border: #EDAE00 1px solid;
 	margin: 0.3125rem;
 }
@@ -363,3 +363,24 @@ p {
 	padding: 0.625rem;
 }
 /* //服务保障 */
+
+/* 视频中心 */
+.video-content {
+	margin-top: 1.25rem;
+}
+.video-title {
+	text-align: center;
+	margin: 0.3125rem;
+	
+}
+@media (min-width: 992px) {
+	.video-content {
+		width: 32%;
+	}
+}
+@media (max-width: 991.98px) {
+	.video-content {
+		width: 100%;
+	}
+}
+/* //视频中心 */
