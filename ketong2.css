@@ -53,6 +53,18 @@ p {
 	padding: 5px;
 }
 
+.header {
+	background-color: #EDAE00;
+}
+.hear-info {
+	background-color: #3A0304;
+	height: 2rem;
+}
+.hear-info p {
+	line-height: 2rem;
+	color: #EDAE00;
+	font-weight: 700;
+}
 /* nav */
 .navbar {
 	height: 80px;
@@ -270,17 +282,38 @@ p {
 	background-color: #313131;
 	height: auto;
 }
-/* //footer */
-.about-us h4 {
-	display: inline-block;
-	line-height: 40px;
-	border-bottom: #EDAE00 4px solid;
-}
 
 .footer ul {
 	list-style: none;
 	padding-left: 0;
 }
+.footer ul li {
+	line-height: 30px;
+}
+.footer ul li a {
+	color: #EDAE00;
+}
+.footer ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+.about-us h4 {
+	display: inline-block;
+	line-height: 40px;
+	border-bottom: #EDAE00 4px solid;
+}
+.qrcode img {
+	width: 80%;
+}
+.footer-info {
+	background-color: #EDAE00;
+	height: 3.125rem;
+}
+.footer-company p {
+	line-height: 3.125rem;
+	font-size: 1.125rem;
+}
+/* //footer */
 
 /* 二级页面banner */
 .service-banner {
